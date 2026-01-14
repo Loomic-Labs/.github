@@ -1,6 +1,6 @@
 # 🚀 Loomic Tech | AI Inventory Backend
 
-![Loomic Tech Logo](https://github.com/Loomic-Labs/identidad/raw/main/logo.png) ### 🌐 Visión General
+![Loomic Tech Logo]([https://github.com/Loomic-Labs/identidad/raw/main/logo.png](https://github.com/organizations/Loomic-Labs/settings/profile)) ### 🌐 Visión General
 **Loomic Tech** es una plataforma de automatización diseñada para escalar operaciones de E-commerce masivo. Este repositorio contiene el **Backend Lógico** del Chatbot de Inventario, integrando modelos de lenguaje avanzados (LLMs) para la gestión inteligente de stock y pedidos en tiempo real.
 
 ---
