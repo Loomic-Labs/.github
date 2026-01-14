@@ -1,37 +1,34 @@
-Loomic Tech: AI Inventory Chatbot
-Visión del Proyecto
-Este sistema no es solo un contador de cajas; es el motor lógico diseñado para soportar operaciones masivas de E-commerce. Loomic Tech utiliza Inteligencia Artificial (Python + Ollama) para automatizar la gestión de inventarios y responder al tráfico masivo generado por campañas agresivas de publicidad (Ads).
+# 🚀 Loomic Tech | AI Inventory Backend
 
-🛠️ Stack Tecnológico
-Lenguaje: Python 3.x
+![Loomic Tech Logo](https://github.com/Loomic-Labs/identidad/raw/main/logo.png) ### 🌐 Visión General
+**Loomic Tech** es una plataforma de automatización diseñada para escalar operaciones de E-commerce masivo. Este repositorio contiene el **Backend Lógico** del Chatbot de Inventario, integrando modelos de lenguaje avanzados (LLMs) para la gestión inteligente de stock y pedidos en tiempo real.
 
-Motor de IA: Ollama (LLMs locales para desarrollo y escalabilidad)
+---
 
-Base de Datos: SQL (Gestión robusta de stock y pedidos)
+## 🛠️ Stack Tecnológico
+* **Core:** Python 3.10+
+* **IA Engine:** Ollama API (Llama 3 / Mistral)
+* **Database:** SQL Server / PostgreSQL (Relational inventory management)
+* **Infrastructure:** GitHub Organizations para despliegue colaborativo
 
-Infraestructura: GitHub Organizations (Control de versiones)
+---
 
-🏗️ Arquitectura y Escalabilidad
-Como Arquitecto del proyecto, el código debe seguir estos principios:
+## 🏗️ Arquitectura del Sistema
+Como **Arquitecto** del proyecto, los estándares de desarrollo para este sistema son:
 
-Modularidad: Separación clara entre la lógica del chatbot (IA) y la consulta de base de datos.
+1.  **Escalabilidad:** El código debe soportar picos de tráfico generados por campañas de Ads agresivas.
+2.  **Seguridad:** Implementación de capas seguras para la manipulación de datos sensibles del inventario.
+3.  **RAG (Retrieval-Augmented Generation):** Conexión directa entre el LLM y la base de datos SQL para respuestas precisas sobre stock.
 
-Eficiencia: El backend debe ser capaz de gestionar cientos de pedidos automatizados simultáneamente.
+---
 
-Documentación: Cada función y API debe estar documentada para facilitar el crecimiento del equipo.
-
-📋 Roadmap Inicial
-[ ] Configuración del entorno virtual de Python.
-
-[ ] Conexión inicial con la API de Ollama.
-
-[ ] Estructura de la base de datos SQL para inventario.
-
-[ ] Integración del chatbot con el flujo lógico de pedidos.
-
-🤝 Colaboración y Reglas
-Rama Principal: main (solo para código estable).
-
-Commits: Mensajes claros y descriptivos.
-
-Comunicación: Acuerdos técnicos documentados en el Google Doc oficial del proyecto
+## 📂 Estructura del Proyecto (Propuesta)
+```text
+loomic-tech-backend/
+├── src/                # Código fuente principal
+│   ├── ai/             # Integración con Ollama
+│   ├── database/       # Conexiones y queries SQL
+│   └── api/            # Endpoints y lógica de negocio
+├── docs/               # Documentación técnica adicional
+├── tests/              # Pruebas unitarias
+└── requirements.txt    # Dependencias del proyecto
